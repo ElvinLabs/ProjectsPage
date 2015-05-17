@@ -34,6 +34,8 @@
 
 .proj-imgs {
     position: relative;
+    font-size:10pt;
+    text-align:center;
 }
 .proj-imgs img {
     max-width: 100%;
