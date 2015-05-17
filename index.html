@@ -286,6 +286,136 @@ Face recignition was also done using Python, with the help of OpenCv library usi
             </div>
         </div>
         <hr>    
+        <!--Stock Refill Notifier-->
+        <div class="row" id="stockrefil">
+            <div class="col-md-8">
+                <h2 class="post-title">
+                    Stock Refill Notifier
+                </h2>
+            </div>
+            <div class="col-md-8 georgia">
+                <p>
+Stock Refill Notifier is a sms based system that alerts the user about the different stock levels. Because of the unknown stock levels, checking the usage of the stocks and maintaining the stocks have become a major problem. Most of the projects available for stock level indication gives the indication whether the stock levels are empty or full. So the focus of the Stock Refill Notifier is to recognize whether the stock is empty for a specified percentage (ex. 70%) and provide a better recognition of the stock levels to the user.
+                </p>
+                <p>
+Detecting the available space in the rack is done by image processing using Arduino with OpenCV and Python. As the OS Yocto Linux has been used. After processing the image, if the space available is 70% or higher, the system generates an alert message (sms) and sends it to the user.
+                </p>
+                <p>
+When considering the general purpose use of the system, the stock refilling notifier system is suitable for any kind of a stock. This system can be used at companies, offices and even in home or schools for monitoring various stocks and storages.
+                </p>
+                <ul class="post-meta">
+                    <li>Gayan Rajapakse</li>
+                    <li>Madusha Jayawardhana</li>
+                    <li>Sakuni Manamendra</li>
+                    <li>Tharaka Wehalla</li>
+                </ul>
+            </div>
+            <div class="col-md-4 proj-imgs">
+                <div><img src="img/stock_refill_notifier_fig_1.png">Figure 1: Flow Diagram</div>
+            </div>
+        </div>
+        <hr>
+        <!--Public Transportation Information System-->
+        <div class="row" id="publictransport">
+            <div class="col-md-8">
+                <h2 class="post-title">
+                    Public Transportation Information System
+                </h2>
+            </div>
+            <div class="col-md-8 georgia">
+                <p>Aim of this project is develop a public transportation detail system. When we use public transports, sometimes we have to face some problems. Where is the bus now? How many passengers are there? Can I take a seat? As well as some times passengers have no idea now where is the bus? How long to get off from the bus? These are common problems people faced when they use public transportation. To avoid these problems sometimes we have no proper way. Our project is small attempt to solve above problems and make the clients travel comfortable.
+                </p>
+                <p>Here I briefly explain, how we provide services to clients. If waiting person for the bus needs to know, now where is the bus, he should send sms to provided specific mobile number, then he get replies the current location of the bus and nearest town. Acknowledge the passengers about current location of the bus, show location in led/lcd display. We hope to develop small web page to show the passenger details of the bus. Using this web page clients can get the idea about how many passengers are there, location of the bus and number of empty seats.
+                </p>
+                <p>The project basically based on Galileo Gen 2 board with a GSM shield. GSM shield is used to send & receive sms. To display the location in the bus lcd/led display will be used. To find the location of the  bus, we use dialog ideamart application.
+                </p>
+                <ul class="post-meta">
+                    <li>Harsha Karunatissa</li>
+                    <li>Lakshan Karunasekara</li>
+                    <li>Padmanadan Keerthanan</li>
+                    <li>Prabhath Kadurugasyaya</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <!--Automated Watering System-->
+        <div class="row" id="autowater">
+            <div class="col-md-8">
+                <h2 class="post-title">
+                    Automated Watering System
+                </h2>
+            </div>
+            <div class="col-md-8 georgia">
+                <p>As the population increases, the demand for water increases. Outdoor water is very limited. Homeowners who have irrigation systems often apply too much water to plants too frequently. Then water is wasting. But from our system, we are watering when plants need water. It is very useful to protect water.
+                </p>
+                <p> Today people are very busy. Then they do not have enough time to water plants every day. If they have this kind of system, it will be very useful.
+                </p>
+                <p>Our project is to make an automatic watering system using Arduino, soil humidity sensor and a water pump. Humidity sensor takes constant readings of the soil moisture and transfers to Arduino. The system amount of moisture needed simply turning the potentiometer. Then the system opens and closes the water valve of the pump if the soil is below your specified level of moisture. We have implemented a web server. Arduino board is connected to the internet and it sends data to the server as a GET request. Users have accounts in our website and they can see those updated data(moisture level, watering times..etc). Yahoo weather API is used for check whether it is raining or not.
+                </p>
+                <ul class="post-meta">
+                    <li>Danushka Eranga</li>
+                    <li>Chinthaka Ekanayake</li>
+                    <li>Tharinda Ehelepola</li>
+                    <li>Tharindu Dhanushka</li>
+                </ul>
+            </div>
+            <div class="col-md-4 proj-imgs">
+                <div><img src="img/automated_watering_system_fig_1.jpg">Figure 1: Circuit Diagram</div>
+                <hr>
+                <div><img src="img/automated_watering_system_fig_2.jpg">Figure 2 : Flow Chart</div>
+            </div>
+        </div>
+        <hr>
+        <!--Density Based Traffic Control System-->
+        <div class="row" id="density">
+            <div class="col-md-8">
+                <h2 class="post-title">
+                    Density Based Traffic Control System
+                </h2>
+            </div>
+            <div class="col-md-8 georgia">
+                <p>A density based traffic control system implemented with the use of a Camera connected to Intel Galileo Gen 2 board. The end result of this project will be a prototype traffic control signal system which considers the density of traffic to increase efficiency rather than operating on set timing.
+                </p>
+                <p>Many road traffic accidents take place at traffic light intersections, not only due to the complexity involved in junctions, but due to frustration and lack of priorities to busier streets. This could save many lives but will definitely save a lot of time and effort for daily commuters.
+                </p>
+                <p>Using open CV that runs on an Intel Galileo Gen 2 board, we hope to enhance the quality of life for all commuters by providing an affordable solution for a more efficient method of traffic light control.
+                </p>
+                <ul class="post-meta">
+                    <li>Kumaravel balakayan</li>
+                    <li>Namodaya Balaarachchi</li>
+                    <li>Narmada Balasooriya</li>
+                    <li>Supun Athukorala</li>
+                </ul>
+            </div>
+            <div class="col-md-4 proj-imgs">
+                <div><img src="img/density_based_traffic_controlling_system_fig_1.jpeg">Figure 1: Algorithm Simulator, created using Unity</div>
+            </div>
+        </div>
+        <hr>
+        <!--GSM-based Electronic Notice Board-->
+        <div class="row" id="gsmbased">
+            <div class="col-md-8">
+                <h2 class="post-title">
+                    GSM-based Electronic Notice Board
+                </h2>
+            </div>
+            <div class="col-md-8 georgia">
+                <p>Our Project Idea is to build an Electronic notice board which User can input the Notices through a SMS message. So the User do not need to be near the Notice board(like if using WIFI to send message user needs to be in the wifi range) and he/she can send the message from anywhere in the world and Show it up in the notice board.
+                </p>
+                <p>We give authority to limit multiple users to publish Notices in this notice Board. Also we considered that Notices through an online forum is not a fast way of transferring Notices to people. As an example this kind of notice board can be put up in the Ground floor of the CE Building. If a Staff member wants to pass a Urgent notice to students then he/she can easily put the notice while in the home.
+                </p>
+                <p>As Wireless Technology is very Popular and trending in the world now , people try on implementing wireless technology in their daily activities to do those tasks remotely while no need to present nearby them .So by using them they had  make their life easy. To achieve those, embedded systems and wireless technology can be used together while embedded systems are capable of controlling the devices and wireless technologies to control them remotely.  Most of the time they use WIFI in their experiments as the robustness of it. Also there are plenty of other useful wireless technologies that can be used like GSM (SMS and calls, IR , etc...). 
+                </p>
+                <ul class="post-meta">
+                    <li>Erandika Harshani</li>
+                    <li>Gathila Harischandra</li>
+                    <li>Sanjaya Herath</li>
+                    <li>Thilanka Hirimuthugoda</li>    
+                </ul>
+            </div>
+        </div>
+        <hr>
+    
     
     <hr>
 
