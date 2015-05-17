@@ -10,6 +10,16 @@
     margin: 4px 1px;
 }
 
+.proj-tag a:hover {
+    text-decoration: none;
+    color: white;
+    -webkit-transition: color 400ms;
+    -moz-transition: color 400ms;
+    -o-transition: color 400ms;
+    -ms-transition: color 400ms;
+    transition: color 400ms;
+}
+
 .bg-blue { background-color: #9ee5ff; }
 .bg-green { background-color: #aafa87; }
 .bg-pink { background-color: #f78cca; }
