@@ -1,6 +1,14 @@
    $(function() {
        
        
+       
+       
+       $(window).scroll( function(){       
+            var top =$(document).scrollTop();
+    
+       });
+       
+       
        // scroll down function
        
       $('a[href*=#]:not([href=#])').click(function() {

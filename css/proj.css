@@ -1,3 +1,11 @@
+
+
+body{
+
+    
+}
+
+
 .index, .proj {
     font-family: 'helveticaneue', 'helvetica', 'droid sans', arial;
 }
@@ -67,4 +75,17 @@ hr{border-top: 1px solid #C9C9C9;}
 
 .georgia {
     font-family: georgia, 'times new roman', times, serif;
+}
+
+.scroll-top{
+    position:fixed;
+    z-index: 1000;
+   
+
+
+}
+
+.scroll{
+     width: 30px;
+    height: 10px;
 }
