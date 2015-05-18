@@ -4,7 +4,6 @@
 
 .proj-tag {
     border-radius: 4px;
-    padding: 3px;
     display: inline-block;
     margin: 4px 1px;
 }
@@ -13,7 +12,10 @@
     text-decoration: none;
     padding: 4px 20px;
     color: white;
+    border-radius: 4px;
 }
+
+hr{border-top: 1px solid #C9C9C9;}
 
 .proj-tag a:hover {
     text-decoration: none;
