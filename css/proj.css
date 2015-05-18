@@ -49,14 +49,6 @@ hr{border-top: 1px solid #C9C9C9;}
 .bg-gold  { background-color: #f1c40f; }
 .bg-red  { background-color: #e74c3c; }
 
-/*.bg-trans:hover {
-    -webkit-transition: background-color 400ms;
-    -moz-transition: background-color 400ms;
-    -o-transition: background-color 400ms;
-    -ms-transition: background-color 400ms;
-    transition: background-color 400ms;
-}*/
-
 .post-meta {
     font-style: italic;
     color: #aaa;
@@ -67,6 +59,7 @@ hr{border-top: 1px solid #C9C9C9;}
     font-size:10pt;
     text-align:center;
 }
+
 .proj-imgs img {
     max-width: 100%;
     padding-bottom: 10px;
@@ -80,9 +73,6 @@ hr{border-top: 1px solid #C9C9C9;}
 .scroll-top{
     position:fixed;
     z-index: 1000;
-   
-
-
 }
 
 .scroll{
