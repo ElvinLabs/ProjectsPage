@@ -73,6 +73,7 @@ hr{border-top: 1px solid #C9C9C9;}
 .scroll-top{
     position:fixed;
     z-index: 1000;
+    margin-top: -150px;
 }
 
 .scroll{
