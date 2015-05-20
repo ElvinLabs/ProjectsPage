@@ -101,3 +101,17 @@ hr{border-top: 1px solid #C9C9C9;}
     border: 1px solid rgba(255,255,255,0.8);;
     border-radius: 15px;
 }
+
+.intro-header .site-heading h1{
+    font-size: 45px;   
+}
+
+.intro-header .site-heading{
+    padding: 60px 0px;   
+}
+
+@media(max-width:1000px){
+    .navbar-brand{
+        visibility: hidden;   
+    }
+}
