@@ -673,22 +673,45 @@ job done, but is also convenient and hassle-free for the average household user.
             $(window).scroll(function() { 
                 if ($(this).scrollTop() > 75) { 
                     $("#scrollTop:hidden").css('visibility','visible');   
-                    $("#scrollTop:hidden").fadeIn(300);  
+                    $("#scrollTop:hidden").fadeIn(300);
+                    $('.proj-tag').css('visibility','hidden'); 
                 } 
-                else {     
-                    $("#scrollTop:visible").fadeOut(300); 
+                else if( $(this).scrollTop() < 75 ) {     
+                    $("#scrollTop:visible").fadeOut(300);
+                    $('.proj-tag').css('visibility','visible');
+                    $('#project-titles').css('height','auto');
+                    $('.proj-show').css('visibility','hidden');
+
                 }
+                
+                
                 $("#navBar").removeClass("is-visible");
                 $("#navBar").removeClass("is-fixed");
                 $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
             });
         });
+        
+        
         $('.proj-show').click(function(){
             $('#project-titles').css('height','auto');
             $('.proj-tag').css('visibility','visible'); 
             $('.proj-tag').fadeIn(300);
             $('.proj-show').css('visibility','hidden');
         });
+        
+        
+        $('.index [href]').click( function(){      
+           // alert("working");
+            $('.proj-tag').css('visibility','hidden');
+            $('.proj-tag').fadeIn(300);
+            $('#project-titles').css('height','50');
+            $('.proj-show').css('visibility','visible');
+            
+        });
+        
+        
+        
+        
     </script>
 
     <script type="text/javascript">
