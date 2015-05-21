@@ -109,6 +109,7 @@ ___________.__       .__       .____          ___.
     <!-- Index of projects -->
      
     <div class="container index" id="project-titles">
+        <div class="proj-show">Projects</div>
         <div class="proj proj-tag bg-green bg-trans"><a href="#project1">Power Monitor</a></div>
         <div class="proj proj-tag bg-red bg-trans"><a href="#project2">Robot Cart</a></div>
         <div class="proj proj-tag bg-gold bg-trans"><a href="#project3">Home Security System</a></div>
@@ -666,6 +667,8 @@ job done, but is also convenient and hassle-free for the average household user.
     <script src="js/clean-blog.min.js"></script>
     <script src="js/scroll.js"></script>
     <script>
+        var $window = $(window),$stickyEl = $('#project-titles'),elTop = $stickyEl.offset().top;
+        
         $(function(){
             $(window).scroll(function() { 
                 if ($(this).scrollTop() > 75) { 
@@ -677,9 +680,15 @@ job done, but is also convenient and hassle-free for the average household user.
                 }
                 $("#navBar").removeClass("is-visible");
                 $("#navBar").removeClass("is-fixed");
+                $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
             });
         });
-    
+        $('.proj-show').click(function(){
+            $('#project-titles').css('height','auto');
+            $('.proj-tag').css('visibility','visible'); 
+            $('.proj-tag').fadeIn(300);
+            $('.proj-show').css('visibility','hidden');
+        });
     </script>
 
     <script type="text/javascript">

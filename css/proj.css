@@ -115,3 +115,23 @@ hr{border-top: 1px solid #C9C9C9;}
         visibility: hidden;   
     }
 }
+
+.proj-show{
+    visibility: hidden;
+}
+
+#project-titles.sticky{
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    background-color: #fff;
+    height: 50px;
+}
+
+.sticky .proj-tag{
+    visibility: collapse;
+}
+
+.sticky .proj-show{
+    visibility:visible;   
+}
