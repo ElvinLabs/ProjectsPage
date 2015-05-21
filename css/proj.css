@@ -117,22 +117,18 @@ hr{border-top: 1px solid #C9C9C9;}
     }
 }
 
-.proj-show{
-    visibility: hidden;
+
+.dropdown-menu li{
+    background-color: #000;
+    line-height: 12px;
 }
 
-#project-titles.sticky{
-    position: fixed;
-    top: 0px;
-    z-index: 100;
-    background-color: #fff;
-    height: 50px;
+/*
+.dropdown-menu li a{
+  margin: -10px 0 -10px 0;
 }
 
-.sticky .proj-tag{
-    visibility: collapse;
+.dropdown-menu li:hover{
+    background-color: #3698db;
 }
-
-.sticky .proj-show{
-    visibility:visible;   
-}
+*/
