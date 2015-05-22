@@ -12,7 +12,7 @@ ___________.__       .__       .____          ___.
         \/                   \/        \/    \/    \/     \/
 
 (c) ElvinLabs, 2015
-        - elvinlabs.github.io
+        - www.elvinlabs.com
         - github.com/elvinlabs
  -->
 
@@ -70,7 +70,7 @@ ___________.__       .__       .____          ___.
       <ul class="nav navbar-nav navbar-right">
         
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="padding: 20px;">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="padding: 20px;">Projects <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu" style="padding: 0px;">
             
         <li><a href="#project1">Power Monitor</a></li>
@@ -104,6 +104,7 @@ ___________.__       .__       .____          ___.
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
+                        <a href="http://www.pdn.ac.lk" target="_blank"><img src="img/crest.png" style="z-index:100; width:100px;" alt="University of Peradeniya"></a>
                         <h1>Embedded Systems Projects</h1>
                         <hr class="small">
                         <span class="subheading">Presentations and Demo (E/11 Batch)</span><br>
@@ -349,8 +350,8 @@ Face recignition was also done using Python, with the help of OpenCv library usi
             </div>
           
         </div>
-        <hr>    
-    <a name="project7"></a>
+        <hr>   
+    <a name="project7"></a> 
         <!--Stock Refill Notifier-->
         <div class="row" id="stockrefil">
             <div class="col-md-8">
@@ -689,12 +690,10 @@ job done, but is also convenient and hassle-free for the average household user.
                 if ($(this).scrollTop() > 75) { 
                     $("#scrollTop:hidden").css('visibility','visible');   
                     $("#scrollTop:hidden").fadeIn(300);
-
                 } 
                 else if( $(this).scrollTop() < 75 ) {     
                     $("#scrollTop:visible").fadeOut(300);
-
-
+                    $('.navbar-fixed-top').removeClass("inverse");
                 }
  
             });
@@ -711,7 +710,12 @@ job done, but is also convenient and hassle-free for the average household user.
             }
         });
         
-        
+        $(document).ready(function () {
+            $(".dropdown-menu li a").click(function(event) {
+                // check if window is small enough so dropdown is created
+                $(".dropdown").removeClass("open");
+            });
+        });
       
         
     </script>
@@ -724,7 +728,7 @@ job done, but is also convenient and hassle-free for the average household user.
         " |        \\|  |_\\   /|  |   |  \\    |___ / __ \\| \\_\\ \\\___ \\  \n"+
         "/_______  /|____/\\_/ |__|___|  /_______ (____  /___  /____  > \n"+
         "        \\/                   \\/        \\/    \\/    \\/     \\/  \n"+
-        "(c) ElvinLabs, 2015\n\t- elvinlabs.github.io\n\t- github.com/elvinlabs"
+        "(c) ElvinLabs, 2015\n\t- www.elvinlabs.com\n\t- github.com/elvinlabs"
     );
     </script>
 
