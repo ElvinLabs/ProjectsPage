@@ -7,7 +7,7 @@ ___________.__       .__       .____          ___.
         \/                   \/        \/    \/    \/     \/
 
 (c) ElvinLabs, 2015
-        - elvinlabs.github.io
+        - www.elvinlabs.com
         - github.com/elvinlabs
 */
 
@@ -123,16 +123,27 @@ hr{border-top: 1px solid #C9C9C9;}
     line-height: 12px;
 }
 
-
-.inverse{
-    background-color: rgba(000,000,000,0.8);
+.navbar .navbar-default .navbar-custom .navbar-fixed-top .inverse{
+    background-color: rgba(000,000,000,0);
+}
+.navbar-right{
+    background-color: rgba(000,000,000,1);
 }
 .navbar-nav > .open > a {
-    background-color: rgba(000,000,000,0.8);
+    background-color: rgba(000,000,000,1);
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
     color: #555;
-    background-color:rgba(000,000,000,0.6);
+    background-color:rgba(000,000,000,1);
+}
+
+.navbar-custom.is-fixed {
+    background-color: transparent;
+    border-bottom-color: transparent;   
+}
+
+.navbar-custom.is-fixed .nav li a{
+    color: #fff;   
 }
 
 /*
