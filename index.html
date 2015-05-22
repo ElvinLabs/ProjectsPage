@@ -52,7 +52,7 @@ ___________.__       .__       .____          ___.
 <body id="body">
     <a name="Top"></a>
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top navbar-inverse" >
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top" >
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -116,7 +116,7 @@ ___________.__       .__       .____          ___.
     
     <!-- Details -->
     <a href="#Top" class="pull-right scroll-top" id="scrollTop">     
-<button type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-chevron-up scroll" aria-hidden="true"></span>Top</button>    
+<!--<button type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-chevron-up scroll" aria-hidden="true"></span>Top</button>    -->
     </a>
     
     <div class="container index">
@@ -124,7 +124,7 @@ ___________.__       .__       .____          ___.
     <!-- Index of projects -->
      
     <div class="container index" id="project-titles">
-        <div class="proj-show">Projects</div>
+<!--        <div class="proj-show">Projects</div>-->
         <div class="proj proj-tag bg-green bg-trans"><a href="#project1">Power Monitor</a></div>
         <div class="proj proj-tag bg-red bg-trans"><a href="#project2">Robot Cart</a></div>
         <div class="proj proj-tag bg-gold bg-trans"><a href="#project3">Home Security System</a></div>
@@ -698,6 +698,17 @@ job done, but is also convenient and hassle-free for the average household user.
                 }
  
             });
+        });
+        
+        
+        $('.dropdown .dropdown-toggle').click( function(){      
+            if(  $('.navbar-fixed-top').hasClass("inverse")){
+                 $('.navbar-fixed-top').removeClass("inverse");
+                 $('.dropdown .dropdown-toggle').removeClass("inverse");
+            } else { 
+                $('.navbar-fixed-top').addClass("inverse");
+                $('.dropdown .dropdown-toggle').addClass("inverse");
+            }
         });
         
         

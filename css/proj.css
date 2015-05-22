@@ -123,6 +123,18 @@ hr{border-top: 1px solid #C9C9C9;}
     line-height: 12px;
 }
 
+
+.inverse{
+    background-color: rgba(000,000,000,0.8);
+}
+.navbar-nav > .open > a {
+    background-color: rgba(000,000,000,0.8);
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #555;
+    background-color:rgba(000,000,000,0.6);
+}
+
 /*
 .dropdown-menu li a{
   margin: -10px 0 -10px 0;
